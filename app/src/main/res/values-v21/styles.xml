@@ -6,28 +6,28 @@
     <style name="AppTheme" parent="android:Theme.Material.Light.DarkActionBar">
 
         <!-- Brand colors  -->
-        <item name="android:colorPrimary">#2C3E50</item>
-        <item name="android:colorPrimaryDark">#2C3E50</item>
+        <item name="android:colorPrimary">@color/dark_blue</item>
+        <item name="android:colorPrimaryDark">@color/dark_blue</item>
 
     </style>
 
     <style name="RedButtons" parent="android:Widget.Material.Button">
-        <item name="android:width">200dp</item>
-        <item name="android:background">#E74C3C</item>
-        <item name="android:layout_marginTop">5dp</item>
-        <item name="android:textColor">#fff</item>
+        <item name="android:width">@dimen/button_width</item>
+        <item name="android:background">@color/red</item>
+        <item name="android:layout_marginTop">@dimen/button_margin_top</item>
+        <item name="android:textColor">@color/white</item>
     </style>
 
     <style name="OtherButton" parent="android:Widget.Material.Button">
-        <item name="android:width">200dp</item>
-        <item name="android:layout_marginTop">5dp</item>
-        <item name="android:textColor">#fff</item>
-        <item name="android:background">#009688</item>
+        <item name="android:width">@dimen/button_width</item>
+        <item name="android:layout_marginTop">@dimen/button_margin_top</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/light_green</item>
     </style>
 
     <style name="ScreenTitle" parent="android:Widget.TextView">
-        <item name="android:textSize">24dp</item>
-        <item name="android:color">#2C3E50</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:color">@color/dark_blue</item>
     </style>
 
 </resources>
